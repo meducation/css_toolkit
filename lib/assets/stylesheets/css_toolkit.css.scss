@@ -50,7 +50,7 @@
     $really-light: #b6b6b6;
 
     // Semantic colors (USE THESE, NOT THE RAW COLOURS)
-    $border-color: $lightergray;
+    $border-color: #e0e0e0;
 
     // Control Variables
     $fixed-width: 800px;
@@ -336,6 +336,7 @@
             // Sub-types
             &.reputation {
                 background-color: $orange1;
+                color: #fff;
                 border-radius:25px;
                 padding:5px 1rem;
                 &.xsmall {
