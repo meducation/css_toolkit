@@ -16,10 +16,6 @@ In your `app/assets/stylesheet.css` you can then add:
 
     *= require css_toolkit
 
-You probably also need a link to TypeKit for the font:
-    <script type="text/javascript" src="//use.typekit.net/YOUR_KEY_HERE.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 ## Contributing
 
 Firstly, thank you!! :heart::sparkling_heart::heart:
