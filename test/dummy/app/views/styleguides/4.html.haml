@@ -1,0 +1,6 @@
+= kss_block '4.1' do |modifier_class|
+    -if modifier_class
+        -modifier_class = modifier_class[1..-1]
+        %button.pure-button{class: modifier_class} #{modifier_class.try(:capitalize!)} Button
+    -else
+        %button Default Button

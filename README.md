@@ -16,10 +16,6 @@ In your `app/assets/stylesheet.css` you can then add:
 
     *= require css_toolkit
 
-You probably also need a link to TypeKit for the font:
-    <script type="text/javascript" src="//use.typekit.net/YOUR_KEY_HERE.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 ## Contributing
 
 Firstly, thank you!! :heart::sparkling_heart::heart:
@@ -28,7 +24,7 @@ Please read our [contributing guide](https://github.com/meducation/css_toolkit/t
 
 ## Credits
 
-This library is built on [PureCSS](http://purecss.io/). It is designed by the incredbily talented [Taiyab Raja](http://taiyab.co.uk).
+This library is built on [Pure](http://purecss.io/) and [Font Awesome](http://fontawesome.io/). It is designed by the incredibly talented [Taiyab Raja](http://taiyab.co.uk).
 
 ## Licence
 

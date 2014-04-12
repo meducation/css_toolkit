@@ -1,0 +1,14 @@
+/* Put any extra CSS definitions here that you'll see in your styleguides */
+.box-model {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+}
+
+div[class$='-bg'] {
+    padding: 20px;
+    color: white;
+}
+
