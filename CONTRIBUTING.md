@@ -13,8 +13,20 @@ There is an embedded Rails app preloaded with toolkit elements. You can view it 
 
 ```
 cd /PATH_TO_THIS_FILE/test/dummy
-rails s
+bundle exec rails s
 ```
+
+### KSS
+
+The embedded Rails app presents generated CSS styleguides via [KSS](http://warpspire.com/kss/).
+The magic happens thanks to the [nkss-rails](https://github.com/nadarei/nkss-rails) gem.
+
+- To add a new styleguide section, edit `dummy/config/styleguides.yml`.
+- Then add a HAML file as `dummy/app/views/stylesguides/SECTION_NUMBER.html.haml` and create KSS block with example mark-up.
+- Add the stylesheet, with KSS syntax comments (at the root of this project) to `lib/assets/stylesheets/SECTION_NAME.css.scss`
+- Import the stylesheet in `css_toolkit.css.scss` so that it is included in projects that use this gem.
+
+To modify the look and feel of the styleguide app itself, edit `dummy/app/assets/stylesheets/styleguide-extras.scss`.
 
 If you've not contributed to a repository before - this is the accepted pattern to use:
 

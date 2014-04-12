@@ -1,0 +1,166 @@
+// Colors - Non semantic.
+//
+// Styleguide 3.1
+
+// Blues
+//
+// .blue - Blue foreground
+// .blue-bg - Blue background
+//
+// Styleguide 3.1.1
+$lighterblue: #92c2ff;
+$lightblue: #4f9dff;
+$blue: #3e7fcf;
+$darkblue: #3368aa;
+$darkerblue: #234b77;
+$verydarkblue: #1f2326;
+
+.blue {
+    color: $blue;
+}
+.blue-bg {
+    background-color: $blue;
+}
+
+// Grays
+//
+// .gray - Blue foreground
+// .gray-bg - Blue background
+//
+// Styleguide 3.1.2
+$backgroundgray: #f9f9f9;
+$lightergray: #d5d6db;
+$lightgray: #c9cacc;
+$gray: #808183;
+$darkgray: #3d3f41;
+$darkergray: #1a1b1d;
+$verydarkgray: #171718;
+
+.gray {
+    color: $gray;
+}
+
+.gray-bg {
+    background-color: $gray;
+}
+
+// Greens
+//
+// .green - Green foreground
+// .green-bg - Green background
+//
+// Styleguide 3.1.3
+$lightergreen: #a9fc5b;
+$lightgreen: #87ed27;
+$green: #59a80f;
+$darkgreen: #3f760c;
+$darkergreen: #274807;
+$verydarkgreen: #182c05;
+
+.green {
+    color: $green;
+}
+
+.green-bg {
+    background-color: $green;
+}
+
+// Oranges
+//
+// .orange - Orange foreground
+// .orange-bg - Orange background
+//
+// Styleguide 3.1.4
+$orange1: #f26522;
+$orange2: #e05e20;
+$orange3: #cf571e;
+
+.orange {
+    color: $orange2;
+}
+
+.orange-bg {
+    background-color: $orange2;
+}
+
+// Colors - Semantic.
+//
+// Styleguide 3.2
+
+// Status Colors
+//
+// .success - Success status foreground
+// .success-bg - Success status background
+// .error - Error status foreground
+// .error-bg - Error status background
+// .action - Action needed foreground
+// .action-bg - Action status background
+// .warning - Warning status foreground
+// .warning-bg - Warning status background
+// .disabled - Disabled status foreground
+// .disabled-bg - Disabled status background
+//
+// Styleguide 3.2.1
+$success: #66bc00;
+$error: #e84939;
+$action: #67bc00;
+$warning: #e3c01e;
+$disabled: #a8a8a8;
+
+.success {
+    color: $success;
+}
+
+.success-bg {
+    background-color: $success;
+}
+
+.error {
+    color: $error;
+}
+
+.error-bg {
+    background-color: $error;
+}
+
+.action {
+    color: $action;
+}
+
+.action-bg {
+    background-color: $action;
+}
+
+.warning {
+    color: $warning;
+}
+
+.warning-bg {
+    background-color: $warning;
+}
+
+.disabled {
+    color: $disabled;
+}
+
+.disabled-bg {
+    background-color: $disabled;
+}
+
+// Premium Colors
+//
+// .premium - Premium foreground
+// .premium-bg - Premium background
+//
+// Styleguide 3.2.2
+$premium: #47a632;
+
+.premium {
+    color: $premium;
+}
+
+.premium-bg {
+    background-color: $premium;
+}
+
+

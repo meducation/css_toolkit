@@ -1,0 +1,9 @@
+root: '../../lib/assets/stylesheets'
+title: 'Meducation'
+sections:
+  1: Base
+  2: Typography
+  3: Colours
+  4: Buttons
+  5: Links
+  6: Forms

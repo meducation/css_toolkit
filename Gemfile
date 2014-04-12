@@ -12,3 +12,7 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'nkss-rails', github: 'nadarei/nkss-rails'
+end
