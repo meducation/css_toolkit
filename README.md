@@ -24,7 +24,7 @@ Please read our [contributing guide](https://github.com/meducation/css_toolkit/t
 
 ## Credits
 
-This library is built on [PureCSS](http://purecss.io/). It is designed by the incredbily talented [Taiyab Raja](http://taiyab.co.uk).
+This library is built on [Pure](http://purecss.io/) and [Font Awesome](http://fontawesome.io/). It is designed by the incredibly talented [Taiyab Raja](http://taiyab.co.uk).
 
 ## Licence
 
